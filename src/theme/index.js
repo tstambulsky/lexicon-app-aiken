@@ -1,0 +1,16 @@
+export default {
+  primary: '#EE4E62',
+  light: '#999999',
+  dark: '#444444',
+  white: '#ffffff',
+  header: '#0063b1',
+  ok_word: '#4ba05f',
+  word_to_test: '#235a90',
+  blue_known: '#cde0ef',
+  green_right: '#bff3cf',
+  red_wrong: '#ff7777',
+  rojo_error: '#ff0000',
+  orange: 'orange',
+  gray_light: '#dddddd',
+  transparent: 'transparent',
+};
