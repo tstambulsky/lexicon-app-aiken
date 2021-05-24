@@ -4,6 +4,7 @@ import {
   StyleSheet,
   View,
   ActivityIndicator,
+  SafeAreaView,
 } from 'react-native';
 import { Icon, Input, Text } from 'react-native-elements';
 import { Grid } from '@ant-design/react-native';
@@ -45,16 +46,21 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     margin: 3,
     textAlign: 'center',
+    paddingBottom: Platform.OS === 'ios' ? 20 : 10
+
   },
   playerStyle: {
     margin: 3,
     textAlign: 'center',
+    paddingBottom: Platform.OS === 'ios' ? 20 : 10
   },
   rightBox: {
     backgroundColor: theme.green_right,
     borderWidth: 1,
     margin: 3,
     textAlign: 'center',
+    paddingBottom: Platform.OS === 'ios' ? 20 : 10
+
   },
   wordBad: {
     color: theme.rojo_error,
@@ -73,6 +79,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     margin: 3,
     textAlign: 'center',
+    paddingBottom: Platform.OS === 'ios' ? 20 : 10
   },
 });
 
@@ -97,7 +104,7 @@ const HomeScreen = () => {
   const [wordStatusStyle, setWordStatusStyle] = useState({});
   const data = [
     ...headers,
-    { text: 'P1', style: styles.playerStyle },
+    { text: 'P1', style: styles.playerStyle},
     ...player1knownWords,
     ...player1scores,
     { text: 'P2', style: styles.playerStyle },
@@ -272,13 +279,42 @@ const HomeScreen = () => {
             </Text>
           </View>
 
-          <Grid
-            data={data}
-            columnNum={4}
-            renderItem={renderItem}
-            hasLine={false}
-            itemStyle={{ height: 27, margin: 8, padding: 5 }}
-          />
+          <View
+            style={{
+              paddingLeft: 25,
+              paddingBottom: 25,
+              flexDirection: 'row',
+              alignContent: 'center',
+              alignItems: 'center',
+            }}>
+            <Text>Hits: </Text>
+            <View
+              style={{
+                backgroundColor: '#FFFBB8',
+                padding: 5,
+                alignContent: 'center',
+                alignItems: 'center',
+                marginLeft: 35,
+                minWidth: 30,
+                borderWidth: 1,
+                justifyContent: 'center',
+              }}>
+              <Text>
+                {player === '1'
+                  ? olderWordToGuess?.p1counter
+                  : olderWordToGuess?.p2counter}
+              </Text>
+            </View>
+          </View>
+          <SafeAreaView>
+            <Grid
+              data={data}
+              columnNum={4}
+              renderItem={renderItem}
+              hasLine={false}
+              itemStyle={{ height: 27, margin: 8, padding: 5 }}
+            />
+          </SafeAreaView>
         </>
       ) : (
         <View

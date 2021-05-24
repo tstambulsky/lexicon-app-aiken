@@ -15,12 +15,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* lexikonMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* lexikonMobileTests.m */; };
-		4FA05B0B1009376DFD464B73 /* libPods-lexikonMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FD20BEB9DE37D171E1E1BC /* libPods-lexikonMobile.a */; };
+		5F33CA4FD65BABAE825CACFF /* libPods-lexikonMobile-lexikonMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 976E475F728A6028BC8D0766 /* libPods-lexikonMobile-lexikonMobileTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C6183A81406714D872771173 /* libPods-lexikonMobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF989588057712F15B3E4A66 /* libPods-lexikonMobile-tvOSTests.a */; };
-		E2F1C0EEBFC5BEA81D2E2F4B /* libPods-lexikonMobile-lexikonMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 436B460E185DA08579694F13 /* libPods-lexikonMobile-lexikonMobileTests.a */; };
-		E9E58B7025F7CF2C00B3071D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E58B6F25F7CF2C00B3071D /* File.swift */; };
-		F3E43CD8773ED3C53E514AF8 /* libPods-lexikonMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC69CFCF115CF8A63B9B36BE /* libPods-lexikonMobile-tvOS.a */; };
+		A4EA861529DBF07D055EF154 /* libPods-lexikonMobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C7E96B70E15F4B3D5083C5 /* libPods-lexikonMobile-tvOSTests.a */; };
+		B15E2240BEF54012E2BE950E /* libPods-lexikonMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEAC65C1BD9261FE9944341 /* libPods-lexikonMobile.a */; };
+		F5047175DF7D13467213B1FC /* libPods-lexikonMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD01786FF516230CD414DEB /* libPods-lexikonMobile-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,29 +57,28 @@
 		2D02E47B1E0B4A5D006451C7 /* lexikonMobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lexikonMobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* lexikonMobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lexikonMobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F00D52FA7CE45398E154F57 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		40A8816DF5FAD50DD8F6E172 /* Pods-lexikonMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile/Pods-lexikonMobile.debug.xcconfig"; sourceTree = "<group>"; };
-		436AB645A58F749274A3AC15 /* Pods-lexikonMobile-lexikonMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-lexikonMobileTests.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests.release.xcconfig"; sourceTree = "<group>"; };
-		436B460E185DA08579694F13 /* libPods-lexikonMobile-lexikonMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile-lexikonMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4642052A4CB17DA57ED075CC /* Pods-lexikonMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile/Pods-lexikonMobile.release.xcconfig"; sourceTree = "<group>"; };
+		4CA1093783ACD1A945FF93F3 /* Pods-lexikonMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile/Pods-lexikonMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		4FEAC65C1BD9261FE9944341 /* libPods-lexikonMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5023C60CAB8B46B2B2A318FD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		6286C01B168D4AEC819D349B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		66D7FE4B655CAF19239B39CE /* Pods-lexikonMobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOSTests/Pods-lexikonMobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		65C7E96B70E15F4B3D5083C5 /* libPods-lexikonMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D6CABD21FC5EAE98D1623C /* Pods-lexikonMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOS/Pods-lexikonMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		69071EE4AF4C411EA948C2AE /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		6A429296AFE26D88F564753E /* Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
-		71A46C4670D9D585037301ED /* Pods-lexikonMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOS/Pods-lexikonMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		79EC6F988BFC97847624FC17 /* Pods-lexikonMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile/Pods-lexikonMobile.release.xcconfig"; sourceTree = "<group>"; };
+		7272A1FEB7AF9D4D3F0FD6BF /* Pods-lexikonMobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOSTests/Pods-lexikonMobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD01786FF516230CD414DEB /* libPods-lexikonMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBE0006E8ED46928D86E827 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = lexikonMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F22AE732AC46C182CA0031 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		8E407C4B11B66EE097AB8E14 /* Pods-lexikonMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOS/Pods-lexikonMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		9B780AA9C9B6C7723C43C23E /* Pods-lexikonMobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOSTests/Pods-lexikonMobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		976E475F728A6028BC8D0766 /* libPods-lexikonMobile-lexikonMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile-lexikonMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14A615F085900F21A03D2C5 /* Pods-lexikonMobile-lexikonMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-lexikonMobileTests.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		A813E27D36554006B794E0DD /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		AE305BCABCB6EE4ACBBC50B6 /* Pods-lexikonMobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOSTests/Pods-lexikonMobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B3ABEB31272444E8A072EB28 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		B72184E476EE491FA5640E97 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		C0BF02C1515D0A153B2CE50B /* Pods-lexikonMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-tvOS/Pods-lexikonMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CA0A79C031594E3DB50EAD01 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		CF989588057712F15B3E4A66 /* libPods-lexikonMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6FD20BEB9DE37D171E1E1BC /* libPods-lexikonMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC69CFCF115CF8A63B9B36BE /* libPods-lexikonMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lexikonMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9E58B6F25F7CF2C00B3071D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E0AB679B0248999DB2D7E0BA /* Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECE8518D65664574A9052B15 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -92,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F1C0EEBFC5BEA81D2E2F4B /* libPods-lexikonMobile-lexikonMobileTests.a in Frameworks */,
+				5F33CA4FD65BABAE825CACFF /* libPods-lexikonMobile-lexikonMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA05B0B1009376DFD464B73 /* libPods-lexikonMobile.a in Frameworks */,
+				B15E2240BEF54012E2BE950E /* libPods-lexikonMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E43CD8773ED3C53E514AF8 /* libPods-lexikonMobile-tvOS.a in Frameworks */,
+				F5047175DF7D13467213B1FC /* libPods-lexikonMobile-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6183A81406714D872771173 /* libPods-lexikonMobile-tvOSTests.a in Frameworks */,
+				A4EA861529DBF07D055EF154 /* libPods-lexikonMobile-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +148,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				E9E58B6F25F7CF2C00B3071D /* File.swift */,
 			);
 			name = lexikonMobile;
 			sourceTree = "<group>";
@@ -178,32 +175,32 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		2ADC63A5EABEA4D85449B976 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				40A8816DF5FAD50DD8F6E172 /* Pods-lexikonMobile.debug.xcconfig */,
-				79EC6F988BFC97847624FC17 /* Pods-lexikonMobile.release.xcconfig */,
-				6A429296AFE26D88F564753E /* Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig */,
-				436AB645A58F749274A3AC15 /* Pods-lexikonMobile-lexikonMobileTests.release.xcconfig */,
-				71A46C4670D9D585037301ED /* Pods-lexikonMobile-tvOS.debug.xcconfig */,
-				8E407C4B11B66EE097AB8E14 /* Pods-lexikonMobile-tvOS.release.xcconfig */,
-				9B780AA9C9B6C7723C43C23E /* Pods-lexikonMobile-tvOSTests.debug.xcconfig */,
-				66D7FE4B655CAF19239B39CE /* Pods-lexikonMobile-tvOSTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D6FD20BEB9DE37D171E1E1BC /* libPods-lexikonMobile.a */,
-				436B460E185DA08579694F13 /* libPods-lexikonMobile-lexikonMobileTests.a */,
-				DC69CFCF115CF8A63B9B36BE /* libPods-lexikonMobile-tvOS.a */,
-				CF989588057712F15B3E4A66 /* libPods-lexikonMobile-tvOSTests.a */,
+				4FEAC65C1BD9261FE9944341 /* libPods-lexikonMobile.a */,
+				976E475F728A6028BC8D0766 /* libPods-lexikonMobile-lexikonMobileTests.a */,
+				7CD01786FF516230CD414DEB /* libPods-lexikonMobile-tvOS.a */,
+				65C7E96B70E15F4B3D5083C5 /* libPods-lexikonMobile-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C3042B6145B4CD7EED27A8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CA1093783ACD1A945FF93F3 /* Pods-lexikonMobile.debug.xcconfig */,
+				4642052A4CB17DA57ED075CC /* Pods-lexikonMobile.release.xcconfig */,
+				E0AB679B0248999DB2D7E0BA /* Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig */,
+				A14A615F085900F21A03D2C5 /* Pods-lexikonMobile-lexikonMobileTests.release.xcconfig */,
+				C0BF02C1515D0A153B2CE50B /* Pods-lexikonMobile-tvOS.debug.xcconfig */,
+				67D6CABD21FC5EAE98D1623C /* Pods-lexikonMobile-tvOS.release.xcconfig */,
+				7272A1FEB7AF9D4D3F0FD6BF /* Pods-lexikonMobile-tvOSTests.debug.xcconfig */,
+				AE305BCABCB6EE4ACBBC50B6 /* Pods-lexikonMobile-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -222,7 +219,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1CD5222FD90F4DEF9E1CC909 /* Resources */,
-				2ADC63A5EABEA4D85449B976 /* Pods */,
+				5C3042B6145B4CD7EED27A8E /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -247,12 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "lexikonMobileTests" */;
 			buildPhases = (
-				5CBC1349036C4DD2E0020C2F /* [CP] Check Pods Manifest.lock */,
+				EC4B7688FD8F5334BD89300C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				EA40CBFB47622E3D61BF3506 /* [CP] Embed Pods Frameworks */,
-				0009198344BA0FA351B7CFFB /* [CP] Copy Pods Resources */,
+				4C5888BDA0EE87C3EB200CC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "lexikonMobile" */;
 			buildPhases = (
-				0842F8305574B57A5BBAA2B1 /* [CP] Check Pods Manifest.lock */,
+				4881F4A79C0BA87761EEA661 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				87E3BA27B0F5C362AA73E1EB /* [CP] Embed Pods Frameworks */,
-				59B92E9A2F6F36BA453BA819 /* [CP] Copy Pods Resources */,
+				20AA15DD768D30E0F53734F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,7 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lexikonMobile-tvOS" */;
 			buildPhases = (
-				0842135D99EA16A011D5D9B9 /* [CP] Check Pods Manifest.lock */,
+				05093187B7C61DAE191D33A5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -310,7 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "lexikonMobile-tvOSTests" */;
 			buildPhases = (
-				566CC440E363728E2DA97942 /* [CP] Check Pods Manifest.lock */,
+				076FC056FDEB03EF8B41B711 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -338,7 +333,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1240;
+						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -407,56 +402,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0009198344BA0FA351B7CFFB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests-resources.sh",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,7 +416,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0842135D99EA16A011D5D9B9 /* [CP] Check Pods Manifest.lock */ = {
+		05093187B7C61DAE191D33A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,43 +438,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0842F8305574B57A5BBAA2B1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-lexikonMobile-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		566CC440E363728E2DA97942 /* [CP] Check Pods Manifest.lock */ = {
+		076FC056FDEB03EF8B41B711 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -551,7 +460,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		59B92E9A2F6F36BA453BA819 /* [CP] Copy Pods Resources */ = {
+		20AA15DD768D30E0F53734F2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -601,7 +510,93 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile/Pods-lexikonMobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5CBC1349036C4DD2E0020C2F /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4881F4A79C0BA87761EEA661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lexikonMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5888BDA0EE87C3EB200CC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4B7688FD8F5334BD89300C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -621,42 +616,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87E3BA27B0F5C362AA73E1EB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile/Pods-lexikonMobile-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile/Pods-lexikonMobile-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA40CBFB47622E3D61BF3506 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lexikonMobile-lexikonMobileTests/Pods-lexikonMobile-lexikonMobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -713,7 +672,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				E9E58B7025F7CF2C00B3071D /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -753,9 +711,8 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A429296AFE26D88F564753E /* Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig */;
+			baseConfigurationReference = E0AB679B0248999DB2D7E0BA /* Pods-lexikonMobile-lexikonMobileTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -777,9 +734,8 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 436AB645A58F749274A3AC15 /* Pods-lexikonMobile-lexikonMobileTests.release.xcconfig */;
+			baseConfigurationReference = A14A615F085900F21A03D2C5 /* Pods-lexikonMobile-lexikonMobileTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = lexikonMobileTests/Info.plist;
@@ -798,7 +754,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40A8816DF5FAD50DD8F6E172 /* Pods-lexikonMobile.debug.xcconfig */;
+			baseConfigurationReference = 4CA1093783ACD1A945FF93F3 /* Pods-lexikonMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -821,7 +777,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79EC6F988BFC97847624FC17 /* Pods-lexikonMobile.release.xcconfig */;
+			baseConfigurationReference = 4642052A4CB17DA57ED075CC /* Pods-lexikonMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -842,7 +798,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71A46C4670D9D585037301ED /* Pods-lexikonMobile-tvOS.debug.xcconfig */;
+			baseConfigurationReference = C0BF02C1515D0A153B2CE50B /* Pods-lexikonMobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -870,7 +826,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E407C4B11B66EE097AB8E14 /* Pods-lexikonMobile-tvOS.release.xcconfig */;
+			baseConfigurationReference = 67D6CABD21FC5EAE98D1623C /* Pods-lexikonMobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -898,7 +854,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B780AA9C9B6C7723C43C23E /* Pods-lexikonMobile-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7272A1FEB7AF9D4D3F0FD6BF /* Pods-lexikonMobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -925,7 +881,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66D7FE4B655CAF19239B39CE /* Pods-lexikonMobile-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = AE305BCABCB6EE4ACBBC50B6 /* Pods-lexikonMobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
